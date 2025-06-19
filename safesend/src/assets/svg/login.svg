@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="360" height="640" viewBox="0 0 360 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <g>
+      <rect width="360" height="640" fill="#FFFFFF" fill-rule="evenodd" />
+      <rect width="360" height="640" fill="#0E0E0E" fill-rule="evenodd" />
+      <path d="M360 0C360 0 360 113 360 113C360 311.85 198.85 473 0 473C0 473 0 473 0 473L0 0L360 0C360 0 360 0 360 0Z" fill="#289CF0" />
+    </g>
+  </g>
+</svg>

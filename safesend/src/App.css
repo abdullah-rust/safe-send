@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* 1. Default (Light Mode) */
+:root {
+  --color-bg: #1b1b1b;
+  --color-text: #ffffff;
+  --color-primary: #2563eb;
+  --color-secure: #10b981;
+}
+
+/* 2. Dark Mode - Auto detect system preference */
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #0e0e0e;
+
+    --color-text: #ffffff;
+    --color-primary: #3b82f6;
+    --color-secure: #34d399;
+  }
+} */
+/* background-color: #0e0e0e; */
+
+/* 3. General usage */
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.button {
+  background-color: var(--color-primary);
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.secure-highlight {
+  color: var(--color-secure);
+}
+
+#box {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  margin-left: 20px;
+  margin-top: 20px;
+}
